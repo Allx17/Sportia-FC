@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportia FC</title>
+    <link rel="stylesheet" href="style.css"><style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0044cc;
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #0044cc;
+    margin-bottom: 20px;
+}
+
+.next-match-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.player {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 180px;
+}
+
+.player img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.comissao-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}</style>
+</head>
+
+<body>
+    <!-- Barra superior com logo e navegação -->
+    <header>
+        <div class="logo">
+            <img src="logo_sportia.png" alt="Sportia FC Logo" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#next-match">Próximo Jogo</a></li>
+                <li><a href="#plantel">Plantel</a></li>
+                <li><a href="#comissao">Comissão Técnica</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção do Próximo Jogo -->
+    <section id="next-match">
+        <div class="next-match-container">
+            <h2>Próximo Jogo</h2>
+            <p>Sportia FC vs Opponent - 10/03/2025</p>
+        </div>
+    </section>
+
+    <!-- Seção do Plantel -->
+    <section id="plantel">
+        <div class="players">
+            <h2>Plantel do Sportia FC</h2>
+          <div class="player">
+                <img src="welder.jpg" alt="Welder" />
+                <p>Welder - Guarda-redes</p>
+            </div>
+            <div class="player">
+                <img src="juliao.jpg" alt="Julião" />
+                <p>Julião - Guarda-redes</p>
+            </div>
+            <div class="player">
+                <img src="samson.jpg" alt="Samson" />
+                <p>Samson - Defesa Central</p>
+            </div>
+            <div class="player">
+                <img src="josue.jpg" alt="Josué" />
+                <p>Josué - Defesa Central</p>
+            </div>
+            <div class="player">
+                <img src="tadeu.jpg" alt="Tadeu" />
+                <p>Tadeu - Defesa Central</p>
+            </div>
+            <div class="player">
+                <img src="vasco.jpg" alt="Vasco" />
+                <p>Vasco - Defesa Direito</p>
+            </div>
+            <div class="player">
+                <img src="images/takeoff.jpg" alt="Takeoff" />
+                <p>Takeoff - Defesa Central</p>
+            </div>
+            <div class="player">
+                <img src="yuran.jpg" alt="Yuran" />
+                <p>Yuran - Defesa Esquerdo</p>
+            </div>
+            <div class="player">
+            <img src="camavinga.jpg" alt="Camavinga" />
+                <p>Camavinga - Defesa Esquerdo</p>
+            </div>
+            <div class="player">
+                <img src="images/lito.jpg" alt="Lito" />
+                <p>Lito - Defesa Direito</p>
+            </div>
+            <div class="player">
+                <img src="images/mabenda.jpg" alt="Mabenda" />
+                <p>Mabenda - Defesa Esquerdo</p>
+            </div>
+            <div class="player">
+                <img src="images/benjamim.jpg" alt="Benjamim" />
+                <p>Benjamim - Médio Defensivo</p>
+            </div>
+            <div class="player">
+                <img src="images/gayseler.jpg" alt="Gayseler" />
+                <p>Gayseler - Médio Centro</p>
+            </div>
+            <div class="player">
+                <img src="images/balotelli.jpg" alt="Balotelli" />
+                <p>Balotelli - Médio Ofensivo</p>
+            </div>
+            <div class="player">
+                <img src="images/telio.jpg" alt="Télio" />
+                <p>Télio - Médio Esquerdo</p>
+            </div>
+            <div class="player">
+                <img src="images/kenny.jpg" alt="Kenny" />
+                <p>Kenny - Médio Esquerdo</p>
+            </div>
+            <div class="player">
+              <p>Filipe - Médio Esquerdo</p>
+            </div>
+            <div class="player">
+                <img src="allex.jpg" alt="Allex" />
+                <p>Allex - Médio Direito</p>
+            </div>
+            <div class="player">
+                <img src="nando.jpg" alt="Nando" />
+                <p>Nando - Ponta de Lança</p>
+            </div>
+            <div class="player">
+                <img src="caltony.jpg" alt="Caltony" />
+                <p>Caltony - Ponta de Lança</p>
+            </div>
+            <div class="player">
+                <img src="nelson.jpg" alt="Nelson" />
+                <p>Nelson - Ponta de Lança</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção da Comissão Técnica -->
+    <section id="comissao">
+        <div class="comissao-container">
+            <h2>Comissão Técnica e Direção</h2>
+            <p>Presidente: William Chula</p>
+            <p>Treinador: Dylan</p>
+            <p>Adjunto: Charles</p>
+            <p>Socios: António (Big Tony) e Paulo Cliff</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sportia FC - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
